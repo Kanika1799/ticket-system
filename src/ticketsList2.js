@@ -29,7 +29,7 @@ export default class ticketsList extends React.Component{
      let provider = await Web3Connect.ConnectToWalletConnect(
       WalletConnectProvider,
       {
-        infuraId: "311ef590f7e5472a90edfa1316248cff", // required
+        infuraId: "021bd05063a64247a6192475311a0833", // required
         bridge: "https://bridge.walletconnect.org" // optional
       }
     );
@@ -37,7 +37,7 @@ export default class ticketsList extends React.Component{
     await provider.close();
     console.log(provider);
       provider =  new WalletConnectProvider({
-      infuraId: "311ef590f7e5472a90edfa1316248cff"
+      infuraId: "021bd05063a64247a6192475311a0833"
     });
    
     await provider.enable()
