@@ -66,7 +66,7 @@ export default class NavExample extends React.Component {
       walletconnect: {
         package: WalletConnectProvider, // required
         options: {
-          infuraId: "311ef590f7e5472a90edfa1316248cff" // required
+          infuraId: "021bd05063a64247a6192475311a0833" // required
         }
       },
       torus: {
