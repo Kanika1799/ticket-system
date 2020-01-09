@@ -79,7 +79,7 @@ export default class CheckIn extends React.Component{
          provider = await Web3Connect.ConnectToWalletConnect(
           WalletConnectProvider,
           {
-            infuraId: "311ef590f7e5472a90edfa1316248cff", // required
+            infuraId: "021bd05063a64247a6192475311a0833", // required
             bridge: "https://bridge.walletconnect.org" // optional
           }
         );
@@ -87,7 +87,7 @@ export default class CheckIn extends React.Component{
         if(provider.wc.connected){
          await provider.close();
          provider =  new WalletConnectProvider({
-          infuraId: "311ef590f7e5472a90edfa1316248cff"
+          infuraId: "021bd05063a64247a6192475311a0833"
          });
        
         }
